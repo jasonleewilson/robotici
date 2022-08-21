@@ -1,35 +1,43 @@
-html {height: 100%;}
-
-body {
-	/*background: #f6f6f6 url(../img/bg.png) top center no-repeat;*/
-	font-family: Futura Book, Verdana, Geneva, sans-serif;
-
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e32526+0,8f0222+93,6d0019+100 */
-	background: #e32526; /* Old browsers */
-	background: -moz-radial-gradient(center, ellipse cover,  #e32526 0%, #8f0222 93%, #6d0019 100%); /* FF3.6+ */
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#e32526), color-stop(93%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
-	background: -webkit-radial-gradient(center, ellipse cover,  #e32526 0%,#8f0222 93%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-radial-gradient(center, ellipse cover,  #e32526 0%,#8f0222 93%,#6d0019 100%); /* Opera 12+ */
-	background: -ms-radial-gradient(center, ellipse cover,  #e32526 0%,#8f0222 93%,#6d0019 100%); /* IE10+ */
-	background: radial-gradient(ellipse at center,  #e32526 0%,#8f0222 93%,#6d0019 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e32526', endColorstr='#6d0019',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-
-
-
+html {
+  height: 100%;
 }
 
-.logo {display:block;margin:0 auto;width: 250px;}
+body {
+  background: #fff;
+  font-family: Futura Book, Verdana, Geneva, sans-serif;
 
-.main {text-align: center; /*background-image: url(../img/bg-main.png);*/ background-color: white;margin-top: 10%;}
-.main h1 {color:#C60C30;font-size: 120%;}
-.main h2 {color:#C60C30;font-size: 120%;}
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+}
+
+.main {
+  text-align: center;
+  /*background-image: url(../img/bg-main.png);*/
+  background-color: white;
+  margin-top: 10%;
+}
+
+.main h1 {
+  color: #C60C30;
+  font-size: 120%;
+}
+
+.main h2 {
+  color: #C60C30;
+  font-size: 120%;
+}
+
+a {
+  color: #C60C30;
+}
 
 .footer {
   position: absolute;
