@@ -1,21 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.png';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+
+        Copyright © 1999 - 2022 ROBOTICI. All Rights Reserved.
+
+
         <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
+          href="mailto:info@robotici.com"
           rel="noopener noreferrer"
         >
-          Learn React
+          info@robotici.com
         </a>
       </header>
     </div>
