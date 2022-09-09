@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" width={234} height={90} />
+        <img src={logo} className="App-logo" alt="logo" />
 
         Copyright © 1999 - 2022 ROBOTICI. All Rights Reserved.
 
