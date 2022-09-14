@@ -7,7 +7,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
 
-        Copyright © 1999 - 2022 ROBOTICI. All Rights Reserved.
+        Copyright © 1999 - 2022 ROBOTICI.
+        <br />
+        All Rights Reserved.
 
 
         <a
