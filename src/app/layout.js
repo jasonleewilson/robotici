@@ -1,8 +1,11 @@
 import { GoogleTagManager } from "@next/third-parties/google";
-import { Inter } from "next/font/google";
+import { Arimo } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const arimo = Arimo({
+  subsets: ["latin"],
+  weight: ["variable"],
+});
 
 export const metadata = {
   title: "robotici.com",
@@ -12,9 +15,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <link rel='icon' href='/favicon.ico' sizes='any' />
+      {/* <link rel='icon' href='/favicon.ico' sizes='any' /> */}
+      <link
+        rel='icon'
+        href='/icon?<generated>'
+        type='image/<generated>'
+        sizes='<generated>'
+      />
       <GoogleTagManager gtmId='GTM-THNW4L7' />
-      <body className={inter.className}>{children}</body>
+      <body className={arimo.className}>{children}</body>
     </html>
   );
 }
