@@ -10,7 +10,7 @@ export default function Home() {
       <header className='text-center'>
         <Image
           src='/assets/logo.png'
-          className='logo w-full h-auto'
+          className='logo w-[240px] mx-auto h-auto'
           alt='logo'
           width='0'
           height='0'
