@@ -10,11 +10,11 @@
   --background-end-rgb: 255, 255, 255; */
 }
 
-.logo {
-  width: 234;
-  height: 90;
+/* .logo {
+  width: auto;
+  height: auto;
   margin: 0 auto;
-}
+} */
 
 /*
 Breakpoint prefix	Minimum width	CSS

@@ -1,9 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: "export",
+  // output: "export",
   images: {
-    unoptimized: false,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "daisyui.com",
+        port: "",
+        pathname: "/images/**",
+      },
+    ],
   },
 };
 

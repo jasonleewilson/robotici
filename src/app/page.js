@@ -1,4 +1,5 @@
 import Image from "next/image";
+// import SuperButton from "./components/SuperButton";
 
 export default function Home() {
   const date = new Date();
@@ -10,8 +11,10 @@ export default function Home() {
           src='/assets/logo.png'
           className='logo'
           alt='logo'
-          width={234}
-          height={90}
+          width='0'
+          height='0'
+          sizes='100vw'
+          className='w-full h-auto'
         />
         <h5>
           Copyright ROBOTICI<sup>&copy;</sup> 1999 - {year}.
@@ -22,6 +25,7 @@ export default function Home() {
         </a>
       </header>
       <div>
+        {/* <SuperButton className='w-8' text='Go to test1' link='/test1' /> */}
         Built by{" "}
         <a href='https://jasonleewilson.com' alt='jasonleewilson.com'>
           jasonleewilson.com
