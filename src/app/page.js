@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ClientClock from "./components/ClientClock";
 // import SuperButton from "./components/SuperButton";
 
 export default function Home() {
@@ -9,12 +10,11 @@ export default function Home() {
       <header className='text-center'>
         <Image
           src='/assets/logo.png'
-          className='logo'
+          className='logo w-full h-auto'
           alt='logo'
           width='0'
           height='0'
           sizes='100vw'
-          className='w-full h-auto'
         />
         <h5>
           Copyright ROBOTICI<sup>&copy;</sup> 1999 - {year}.
@@ -23,7 +23,10 @@ export default function Home() {
         <a href='mailto:info@robotici.com' rel='noopener noreferrer'>
           info@robotici.com
         </a>
+        <br />
+        <ClientClock />
       </header>
+
       <div>
         {/* <SuperButton className='w-8' text='Go to test1' link='/test1' /> */}
         Built by{" "}
