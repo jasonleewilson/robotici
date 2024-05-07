@@ -13,7 +13,7 @@ export default function Test1() {
 
   return (
     <>
-      <main>
+      <main className='container mx-auto'>
         <div className='columns-1 sm:columns-2 md:columns-6 lg:columns-6 xl:columns-12 2xl:columns-12 mx-auto bg-slate-300'>
           <div className='bg-slate-500'>1</div>
           <div className='bg-slate-500'>1</div>

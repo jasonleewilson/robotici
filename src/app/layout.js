@@ -1,4 +1,4 @@
-// import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 import { Arimo } from "next/font/google";
 import "./globals.css";
 
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
         type='image/<generated>'
         sizes='<generated>'
       />
-      {/* <GoogleTagManager gtmId='GTM-THNW4L7' /> */}
+      <GoogleTagManager gtmId='GTM-THNW4L7' />
       <body className={arimo.className}>{children}</body>
     </html>
   );
