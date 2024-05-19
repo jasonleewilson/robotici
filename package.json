@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pages:build": "npx @cloudflare/next-on-pages"
   },
   "dependencies": {
     "@next/third-parties": "^14.2.2",
@@ -17,6 +18,7 @@
     "react-live-clock": "^6.1.20"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.11.3",
     "daisyui": "^4.10.2",
     "eslint": "^8",
     "eslint-config-next": "14.2.2",

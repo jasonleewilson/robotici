@@ -2,6 +2,8 @@ import Image from "next/image";
 import ClientClock from "./components/ClientClock";
 // import SuperButton from "./components/SuperButton";
 
+export const runtime = "edge";
+
 export default function Home() {
   const date = new Date();
   const year = date.getFullYear();
