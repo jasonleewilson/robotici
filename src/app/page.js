@@ -11,11 +11,11 @@ export default function Home() {
     <main className='grid h-screen place-items-center'>
       <header className='text-center'>
         <Image
-          src='/assets/logo.png'
+          src='/assets/logo.webp'
           className='logo w-[240px] mx-auto h-auto'
           alt='logo'
-          width='0'
-          height='0'
+          width='240'
+          height='92'
           sizes='100vw'
         />
         <h5>
