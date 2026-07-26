@@ -31,7 +31,7 @@ export default function Home() {
       </header>
 
       <div className="flex flex-col text-center">
-        <div>Copyright ROBOTICI. All Rights Reserved. 1999 - {year}.</div>
+        <div>Copyright ROBOTICI. All Rights Reserved. 1999-{year}.</div>
         <div>Built by{" "}<a href='https://jasonleewilson.com' alt='jasonleewilson.com'>
           jasonleewilson.com
         </a></div>
